@@ -70,7 +70,7 @@ egret_h5.startGame = function () {
     var policy = new egret.ResolutionPolicy(container, content);
     egret.StageDelegate.getInstance().setDesignSize(480,640, policy);
 
-    context.stage = new egret.Stage(canvas.width, canvas.height);
+    context.stage = new egret.Stage(canvas.width,canvas.height);
 
     //WebGL是egret的Beta特性，默认关闭
     if(false) {
